@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    min-height: 100vh;
+}
+label{
+    position: relative;
+    width: 150px;
+    height: 75px;
+    background: #231231;
+    border-radius: 10px;
+}
+label span{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 75px;
+    height: 75px;
+    background: black;
+    border: 6px solid #231231;
+    border-radius: 14px;
+    cursor: pointer;
+}
